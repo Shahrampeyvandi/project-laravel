@@ -1,10 +1,7 @@
 <?php
 
 
-Route::get('/', function () {
-    return view('index');
-});
-
+Route::get('/','indexcontroller@main' );
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
