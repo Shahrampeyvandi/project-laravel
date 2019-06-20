@@ -14,7 +14,7 @@ class HomeController extends Controller
     public function __construct()
     {
         $this->middleware('auth'); //قبل از هدایت شدن به صفحه ابتدا وارد صفحه لاگین میشویم
-        $this->middleware('admin');
+        // $this->middleware('admin');
     }
 
     /**

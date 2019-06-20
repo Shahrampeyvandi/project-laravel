@@ -1,14 +1,19 @@
 
 @extends('layouts/master')
+
 @section('content')
-    
-    @include('partitions.preloader')
+
+    @if ($header->preloader)
+        @include('partitions.preloader')
+    @endif
     <!--Mainmenu-area-->
     @include('partitions.menu')
 
     <!--Mainmenu-area/-->
     <!--Header-area-->
-    @include('partitions.header')
+    @if ($header->visible)  
+         @include('partitions.header')
+    @endif
 
     <!--Header-area/-->
     <!--Feature-area-->
