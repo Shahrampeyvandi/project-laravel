@@ -9,7 +9,7 @@ class Indexcontroller extends Controller
 {
     public function main(){
 
-        $header=Header::first(); //fetch as database
+        $header=Header::first(); //fetch data with Header Model  as database
         
         return view('index',compact('header'));
 

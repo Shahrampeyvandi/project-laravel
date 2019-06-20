@@ -65,6 +65,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Dinar';
     margin: 0 0 10px;
     font-weight: 600;
 }
@@ -76,7 +77,7 @@ body {
 
 body {
     direction: rtl;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Yekan','Dinar','Poppins', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 1.8;
@@ -372,9 +373,8 @@ input:-webkit-autofill:focus {
     background: #000000 url('images/parallax-2.jpg') no-repeat scroll center center / cover;
 }
 
-.anlge-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
-}
+
+
 
 .overlay {
     position: relative;
