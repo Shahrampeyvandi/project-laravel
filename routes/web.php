@@ -1,5 +1,6 @@
 <?php
 
+Route::resource('header','Headercontroller')->only('edit','update');
 
 Route::get('/','indexcontroller@main' );
 Auth::routes();

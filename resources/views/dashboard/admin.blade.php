@@ -17,7 +17,7 @@
         <a href=""><i class="fa fa-eye-slash fa-2x mx-1" title="عدم نمایش" aria-hidden="true"></i></a>
             @else
             <a href=""><i class="fa fa-eye fa-2x mx-1" title=" نمایش" aria-hidden="true"></i> </a>
-        @endif
+        @endif   
 
     </div>
  </div>
@@ -29,7 +29,7 @@
         </div>
             
         <div class="card-footer text-left ">
-                <a href="#"><i class="fa fa-edit fa-2x mx-2" title="ویرایش"></i>
+                <a href="{{url('header/1/edit')}}"><i class="fa fa-edit fa-2x mx-2" title="ویرایش"></i>
                 </a>
                 @if (true)
                 <a href=""><i class="fa fa-eye-slash fa-2x mx-1" title="عدم نمایش" aria-hidden="true"></i></a>
